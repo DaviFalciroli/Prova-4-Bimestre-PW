@@ -1,30 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
-    <title>Página sobre F1 em Interlagos</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Red Bull vence em Interlagos</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"
         integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/f1.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/print.css">
+
 </head>
 
 <body>
+    <div id="content">
+        <header class="header">
+            <img src="../img/red-bull-racing-logo-1.png" alt="Logo RedBull" class="logo">
+            <p>A Red Bull quer confiar na nossa capacidade de vencer todas as corridas</p>
+            <img src="../img/red-bull-racing-logo-1.png" alt="Logo RedBull" class="logo">
+        </header>
+        <div class="text">
+
+            <section class="section">
+                <h2 class="title">Red Bull mantém fé em título de Construtores após vitória no Brasil: “Tudo em jogo”
+                </h2>
+
+                <p>
+                    A Red Bull terminou o fim de semana com uma vitória crucial no GP de São Paulo, que aumentou a
+                    diferença de Max Verstappen sobre Lando Norris e, com isso, as chances de o neerlandês faturar o
+                    tetracampeonato em 2024. Mas a vitória também foi importante para dar sobrevida aos taurinos, que, a
+                    três etapas do fim, consideram totalmente viva a chance de título do Mundial de Construtores.
+
+                    “É complicado. Tivemos um começo de temporada muito forte, mas outras equipes atingiram evoluíram
+                    muito durante o verão. Só recentemente começamos a ter um desempenho real de volta no carro,
+                    vencendo a corrida sprint em Austin e agora o GP de São Paulo”, começou Christian Horner, chefe da
+                    equipe austríaca, em entrevista à rádio inglesa Talksport.
+
+                    “No Brasil, foi um ótimo resultado para nós. Não vencíamos desde junho, mas nossa oitava vitória do
+                    ano foi dominante. Foi uma ótima recuperação da equipe após um período difícil nos últimos meses”,
+                    completou o britânico.
+                </p>
+
+            </section>
+
+            <section class="section_redbull">
+
+                <div>
+                    <h3 class="subtitle">
+                        "F1 2024: Red Bull persegue McLaren e Ferrari na reta final com 83 pontos em jogo"</h3>
+
+                    <div>
+                        <p>
+                            F1 2024 tem 83 pontos em jogo até o fim da temporada com os GPs de Las Vegas, Catar [corrida
+                            sprint e principal] e Abu Dhabi, no início de dezembro. O time dos energéticos é o terceiro
+                            na tabela, com 544 pontos. São 49 tentos de diferença para a McLaren, que lidera o certame
+                            com 593. A Ferrari ainda aparece na segunda posição, com 557.
+
+                            Embora Sergio Pérez tenha terminado em 11º, fora da zona de pontuação da F1, o desempenho
+                            dominante de Verstappen trouxe mais confiança à equipe e, agora, para Horner, “tudo está em
+                            jogo” na temporada.
+
+                            “Agora está tudo em jogo. Ainda faltam três GPs e uma corrida sprint, então há muitos pontos
+                            disponíveis”, concluiu o chefe da Red Bull.
+                        </p>
+
+                    </div>
+
+                </div>
 
 
-    <div>
-        <h1>F1 em Interlagos</h1>
+
+                <img src="../img/f1.png" alt="">
+
+            </section>
+
+            <section class="section_f1">
+
+                <div>
+                    <h3 class="subtitle">
+                        "Fórmula 1: GP de Las Vegas marca início da reta final da temporada com etapas no Catar e Abu
+                        Dhabi"</h3>
+
+                    <p>
+                        A Fórmula 1 agora volta às pistas para o GP de Las Vegas, nos Estados Unidos, entre os dias 21 e
+                        24 de novembro. Depois, realiza corridas no Catar, última sprint do ano, e Abu Dhabi.
+                    </p>
+
+                </div>
+
+                <img src="../img/f1-2.png" alt="">
+
+            </section>
+
+
+        </div>
     </div>
 
 
+    <div class="btn-container">
+        <button class="button" id="generate-pdf">Gerar PDF</button>
+    </div>
 
-
-
-
-    <button id="generate-pdf">Gerar PDF</button>
-
+    <footer class="footer">
+        <p><span>Powered by </span> Daví Falciroli</p>
+    </footer>
 
     <script src="../js/script.js"></script>
 </body>

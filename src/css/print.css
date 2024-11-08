@@ -1,4 +1,4 @@
-@media (max-width:768px) {
+@media print {
 
     .section,
     .section_ambiente,
@@ -35,7 +35,7 @@
     }
 }
 
-@media(max-width:1023px) {
+@media print {
 
     .section_ambiente img,
     .section_partida img,
