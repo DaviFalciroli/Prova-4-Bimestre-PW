@@ -3,7 +3,8 @@ const btnGenerate = document.getElementById("generate-pdf");
 function savePdf() {
     const content = document.querySelector("#content");
 
-    // Adiciona os estilos para o media query de 768px
+
+
     const style = document.createElement("style");
     style.innerHTML = `
         @media (max-width:768px) {
@@ -41,9 +42,11 @@ function savePdf() {
     const options = {
         margin: [10, 10, 10, 10],
         filename: "arquivo.pdf",
-        html2canvas: { scale: 3 },
+        html2canvas: { scale: 3, useCORS: true },
         jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
     };
+
+
 
     html2pdf().set(options).from(content).save();
 }
